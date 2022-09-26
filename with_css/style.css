@@ -1,0 +1,63 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: impact;
+}
+
+header {
+    border: 5px solid #000;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+mark {
+    background-color: #0ff;
+}
+
+table,
+th,
+td {
+    border: 3px solid #4b0082;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(128, 0, 128, 0.4);
+}
+
+span {
+    color: #900;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: small;
+    background-image: url('https://www.tutorialkart.com/sample_image.jpg');
+}
