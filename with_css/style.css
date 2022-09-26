@@ -5,6 +5,35 @@ h3 {
     font-family: impact;
 }
 
+#red,
+#red2 {
+    color: #f00;
+}
+
+#orange {
+    color: #ffa500;
+}
+
+#yellow {
+    color: #ff0;
+}
+
+#green {
+    color: #065535;
+}
+
+#indigo {
+    color: #4b0082;
+}
+
+.violet {
+    color: #ee82ee;
+}
+
+table {
+    width: 100%;
+}
+
 header {
     border: 5px solid #000;
 }
@@ -31,6 +60,10 @@ tr:nth-child(even) {
 
 span {
     color: #900;
+}
+
+#square {
+    list-style-type: square;
 }
 
 a:link {
