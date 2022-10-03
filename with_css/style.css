@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #aaa;
+    background-color: #f2f2f2;
 }
 
 h1,
@@ -16,35 +16,46 @@ h3 {
     font-family: impact;
 }
 
-#red,
-#red2 {
+#indent {
+    text-indent: 40px;
+}
+
+.red {
     color: rgba(255, 0, 0, 0.9);
+    text-decoration: overline underline hotpink double;
+    font-family: impact, serif;
 }
 
 #orange {
     color: #ffa500;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #000;
+    font-family: "Lucida Console", serif;
+    font-size: 40px;
 }
 
 #yellow {
     color: #ff0;
+    text-shadow: 4px 4px #000;
+    font-family: 'times new roman', serif;
+    font-weight: bold;
 }
 
 #green {
     color: #065535;
     background-color: yellowgreen;
     opacity: 0.7;
+    font-variant: small-caps;
 }
 
 #indigo {
     color: #4b0082;
+    text-shadow: 2px 2px #f00;
+    letter-spacing: 1px;
 }
 
 .violet {
     color: #ee82ee;
-}
-
-table {
-    width: 100%;
 }
 
 header {
@@ -58,11 +69,15 @@ img {
 
 mark {
     background-color: hsla(240, 100%, 50%, 0.9);
+    color: skyblue;
+    font-family: 'Audiowide', serif;
 }
 
 table,
 th,
 td {
+    height: 100%;
+    width: 100%;
     border: 3px solid #4b0082;
     padding: 5px;
 }
@@ -71,12 +86,41 @@ tr:nth-child(even) {
     background-color: rgba(128, 0, 128, 0.4);
 }
 
+tr:nth-child(odd):hover {
+    background: #800080;
+}
+
 span {
     color: #900;
 }
 
-#square {
+#display {
+    display: none;
+}
+
+#container1 {
+    border-width: 1px 5px 3px 5px;
+    border-style: solid;
+    border-color: #000;
+    padding: 4px;
+}
+
+#container2 {
+    border: 6px solid #aaa;
+    outline: 5px solid #000;
+    padding: 4px;
+}
+
+ul {
     list-style-type: square;
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul li {
+    background: #ffe5e5;
+    color: darkred;
+    margin: 5px;
 }
 
 a:link {
@@ -106,4 +150,6 @@ a:active {
 footer {
     font-size: small;
     background-image: url('https://www.tutorialkart.com/sample_image.jpg');
+    border: 5px solid orange;
+    border-radius: 15px;
 }
