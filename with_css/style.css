@@ -64,6 +64,8 @@ header {
 
 img {
     margin: auto;
+    width: 200px;
+    height: 210px;
     display: block;
 }
 
@@ -139,6 +141,7 @@ a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
+    font-size: 30px;
 }
 
 a:active {
